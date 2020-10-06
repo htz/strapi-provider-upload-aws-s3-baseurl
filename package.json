@@ -1,77 +1,47 @@
 {
-  "_from": "strapi-provider-upload-aws-s3",
-  "_id": "strapi-provider-upload-aws-s3@3.1.7",
-  "_inBundle": false,
-  "_integrity": "sha512-S6AUY2wO/wY7+o7pg2JAwA3zLK/xcn5Ik9RhY46wL3vNOtqW0jOE956E+VIVPjSKpx7hvINEkAO/Q1h67yDXXA==",
-  "_location": "/strapi-provider-upload-aws-s3",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "strapi-provider-upload-aws-s3",
-    "name": "strapi-provider-upload-aws-s3",
-    "escapedName": "strapi-provider-upload-aws-s3",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/strapi-provider-upload-aws-s3/-/strapi-provider-upload-aws-s3-3.1.7.tgz",
-  "_shasum": "3180cead24b22884eecb26d436571bbd2bab6f29",
-  "_spec": "strapi-provider-upload-aws-s3",
-  "_where": "/Users/htz/work/kankak-strapi",
+  "name": "strapi-provider-upload-s3-baseurl",
+  "version": "1.0.0",
+  "description": "AWS S3 provider for strapi upload with base url",
   "author": {
-    "name": "Strapi team",
-    "email": "hi@strapi.io",
-    "url": "http://strapi.io"
+    "name": "htz",
+    "url": "https://github.com/htz"
   },
-  "bugs": {
-    "url": "https://github.com/strapi/strapi/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "aws-sdk": "2.758.0",
-    "lodash": "4.17.19"
-  },
-  "deprecated": false,
-  "description": "AWS S3 provider for strapi upload",
-  "directories": {
-    "lib": "./lib"
-  },
-  "engines": {
-    "node": ">=10.16.0 <13",
-    "npm": ">=6.0.0"
-  },
-  "gitHead": "564f9228ca236f310d54e0ed94deee750f52301e",
-  "homepage": "http://strapi.io",
   "keywords": [
     "upload",
     "aws",
     "s3",
     "strapi"
   ],
-  "license": "SEE LICENSE IN LICENSE",
-  "main": "./lib",
   "maintainers": [
     {
-      "name": "Strapi team",
-      "email": "hi@strapi.io",
-      "url": "http://strapi.io"
+      "name": "htz",
+      "url": "https://github.com/htz/strapi-provider-upload-aws-s3-baseurl"
     }
   ],
-  "name": "strapi-provider-upload-aws-s3",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "aws-sdk": "2.758.0",
+    "lodash": "4.17.19"
   },
   "scripts": {
     "test": "echo \"no tests yet\""
   },
-  "strapi": {
-    "isProvider": true
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htz/strapi-provider-upload-aws-s3-baseurl.git"
   },
-  "version": "3.1.7"
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/htz/strapi-provider-upload-aws-s3-baseurl/issues"
+  },
+  "homepage": "https://github.com/htz/strapi-provider-upload-aws-s3-baseurl",
+  "deprecated": false,
+  "engines": {
+    "node": ">=10.16.0 <13",
+    "npm": ">=6.0.0"
+  }
 }
