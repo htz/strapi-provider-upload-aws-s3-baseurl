@@ -1,4 +1,4 @@
-# strapi-provider-upload-aws-s3
+# strapi-provider-upload-aws-s3-baseurl
 
 ## Configurations
 
@@ -14,11 +14,12 @@ See the [using a provider](https://strapi.io/documentation/v3.x/plugins/upload.h
 module.exports = ({ env }) => ({
   // ...
   upload: {
-    provider: 'aws-s3',
+    provider: 's3-baseurl',
     providerOptions: {
       accessKeyId: env('AWS_ACCESS_KEY_ID'),
       secretAccessKey: env('AWS_ACCESS_SECRET'),
       region: env('AWS_REGION'),
+      baseUrl: env('UPLOAD_BASE_URL'),
       params: {
         Bucket: env('AWS_BUCKET'),
       },
